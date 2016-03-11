@@ -1,5 +1,9 @@
 module Biz
   module WeekTime
+    ##
+    # A <tt>WeekTime::End</tt> is a specialized type of +WeekTime+ that acts
+    # like the end of a day when representing a time on a day boundary.
+    #
     class End < Abstract
 
       def day_time

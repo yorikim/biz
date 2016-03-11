@@ -7,9 +7,6 @@ Style/AndOr:
 Style/BlockDelimiters:
   EnforcedStyle: semantic
 
-Style/Documentation:
-  Enabled: false
-
 Style/EmptyLinesAroundClassBody:
   EnforcedStyle: empty_lines
 

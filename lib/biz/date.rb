@@ -1,4 +1,7 @@
 module Biz
+  ##
+  # This class contains date-related helper methods.
+  #
   class Date
 
     EPOCH = ::Date.new(2006, 1, 1).freeze

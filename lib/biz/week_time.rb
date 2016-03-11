@@ -1,4 +1,8 @@
 module Biz
+  ##
+  # A module that acts as a namespace for +WeekTime+ objects and related helper
+  # methods.
+  #
   module WeekTime
     class << self
 

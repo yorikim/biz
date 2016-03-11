@@ -6,6 +6,9 @@ require 'set'
 require 'clavius'
 require 'tzinfo'
 
+##
+# Biz is a gem for performing time calculations using business hours.
+#
 module Biz
   class << self
 

@@ -1,5 +1,9 @@
 module Biz
   module WeekTime
+    ##
+    # An abstract class that represents a minute-precision time during a
+    # non-specific week.
+    #
     class Abstract
 
       extend Forwardable

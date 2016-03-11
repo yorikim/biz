@@ -1,5 +1,9 @@
 module Biz
   module WeekTime
+    ##
+    # A <tt>WeekTime::Start</tt> is a specialized type of +WeekTime+ that acts
+    # like the beginning of a day when representing a time on a day boundary.
+    #
     class Start < Abstract
 
       def day_time

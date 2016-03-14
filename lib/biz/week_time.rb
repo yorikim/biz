@@ -14,8 +14,6 @@ module Biz
         End.new(week_minute)
       end
 
-      alias build start
-
     end
   end
 end

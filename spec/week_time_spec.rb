@@ -26,14 +26,4 @@ RSpec.describe Biz::WeekTime do
       expect(week_time.timestamp).to eq '24:00'
     end
   end
-
-  describe '.build' do
-    let(:week_time) {
-      described_class.build(Biz::DayOfWeek.all.first.start_minute)
-    }
-
-    it 'creates a week time that acts as a start time' do
-      expect(week_time.timestamp).to eq '00:00'
-    end
-  end
 end
